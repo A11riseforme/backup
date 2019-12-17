@@ -11,6 +11,7 @@ set bg=dark
 set wrap
 set scrolloff=999
 set linebreak
+set pastetoggle=<F11>
 
 " Map j+i to <esc>
 inoremap ji <esc>
