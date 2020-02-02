@@ -20,9 +20,9 @@ inoremap ji <esc>
 autocmd BufWritePre * let &backupext = strftime(".%m-%d-%H-%M")
 
 " The following should give 16 colors
-set t_AB=1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm
-set t_AF=1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm
-set t_Co=16
+"set t_AB=1%{8}%<%t%p1%{40}%+%e%p1%{92}%+%;%dm
+"set t_AF=1%{8}%<%t%p1%{30}%+%e%p1%{82}%+%;%dm
+"set t_Co=16
 
 " The following change the backspace
 set t_kb=
