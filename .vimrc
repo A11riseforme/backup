@@ -25,7 +25,7 @@ autocmd BufWritePre * let &backupext = strftime(".%m-%d-%H-%M")
 "set t_Co=16
 
 " The following change the backspace
-set t_kb=
+" set t_kb=
 
 autocmd FileType c setlocal shiftwidth=4 tabstop=4
 " set nowrap
